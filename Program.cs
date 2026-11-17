@@ -1,7 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
-using System.IO;
+
 
 namespace project
 {
@@ -130,7 +130,7 @@ namespace project
             switch (menuType)
             {
                 case 1:
-                    uint foodChoice;
+                    int foodChoice;
 
                     Console.WriteLine("");
                     Console.WriteLine("==================================");
@@ -143,7 +143,7 @@ namespace project
                     Console.WriteLine("");
                     Console.Write("Select Food Menu (1-6): ");
 
-                    foodChoice = uint.Parse(Console.ReadLine());
+                    foodChoice = int.Parse(Console.ReadLine());
 
                     if (foodChoice >= 1 && foodChoice <= FoodMenu.Length)
                     {
@@ -185,7 +185,7 @@ namespace project
                     break;
 
                 case 2:
-                    uint drinkChoice;
+                    int drinkChoice;
 
                     Console.WriteLine("");
                     Console.WriteLine("==================================");
@@ -198,7 +198,7 @@ namespace project
                     Console.WriteLine("");
                     Console.Write("Select Drink Menu (1-4): ");
 
-                    drinkChoice = uint.Parse(Console.ReadLine());
+                    drinkChoice = int.Parse(Console.ReadLine());
 
                     if (drinkChoice >= 1 && drinkChoice <= DrinkMenu.Length)
                     {
@@ -240,7 +240,7 @@ namespace project
                     break;
 
                 case 3:
-                    uint sidedishChoice;
+                    int sidedishChoice;
 
                     Console.WriteLine("");
                     Console.WriteLine("==================================");
@@ -253,7 +253,7 @@ namespace project
                     Console.WriteLine("");
                     Console.Write("Select Side Dish Menu (1-3): ");
 
-                    sidedishChoice = uint.Parse(Console.ReadLine());
+                    sidedishChoice = int.Parse(Console.ReadLine());
 
                     if (sidedishChoice >= 1 && sidedishChoice <= SideDishMenu.Length)
                     {
