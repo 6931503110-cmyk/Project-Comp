@@ -351,39 +351,14 @@ namespace project
             Console.WriteLine($"Change: {change} baht");
             Console.WriteLine("Thank you for your order!");
 
-            SaveOrder(change);
+            
 
 
             SalesReport();
         }
 
 
-        static void SaveOrder(int change)
-        {
-            string fileName = "OrderHistory.txt";
-
-            using (StreamWriter writer = new StreamWriter(fileName, true))
-            {
-                writer.WriteLine("========== NEW ORDER ==========");
-                writer.WriteLine($"Order Type: {orderType}");
-                writer.WriteLine($"Date: {DateTime.Now}");
-
-                foreach (OrderItem item in orderList)
-                {
-                    writer.WriteLine(
-                        $"{item.Name} x {item.Quantity} = {item.Price * item.Quantity} baht"
-                    );
-                }
-
-                writer.WriteLine($"Total: {totalPrice} baht");
-                writer.WriteLine($"Paid: {getMoney} baht");
-                writer.WriteLine($"Change: {change} baht");
-                writer.WriteLine("===============================");
-                writer.WriteLine("");
-            }
-
-            Console.WriteLine("Order saved successfully!");
-        }
+        
 
 
         static void SalesReport()

@@ -37,3 +37,12 @@ Paid: 666 baht
 Change: 591 baht
 ===============================
 
+========== NEW ORDER ==========
+Order Type: 1
+Date: 11/17/2026 8:45:02 PM
+Pork Larb with Pork Offal x 1 = 60 baht
+Total: 60 baht
+Paid: 70 baht
+Change: 10 baht
+===============================
+
