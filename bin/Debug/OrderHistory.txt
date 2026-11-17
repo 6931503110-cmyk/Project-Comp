@@ -1,0 +1,39 @@
+========== NEW ORDER ==========
+Order Type: 1
+Date: 11/17/2026 10:35:47 AM
+Pork Larb with Pork Offal x 2 = 120 baht
+Chicken Larb x 2 = 100 baht
+Total: 220 baht
+Paid: 1000 baht
+Change: 780 baht
+===============================
+
+========== NEW ORDER ==========
+Order Type: 1
+Date: 11/17/2026 10:47:12 AM
+Pork Larb with Pork Offal x 3 = 180 baht
+Drinking Water x 1 = 7 baht
+Steamed Rice x 2 = 20 baht
+Total: 207 baht
+Paid: 1233 baht
+Change: 1026 baht
+===============================
+
+========== NEW ORDER ==========
+Order Type: 1
+Date: 11/17/2026 10:48:06 AM
+Watermelon Smoothie x 2 = 70 baht
+Total: 70 baht
+Paid: 455 baht
+Change: 385 baht
+===============================
+
+========== NEW ORDER ==========
+Order Type: 3
+Date: 11/17/2026 10:48:30 AM
+Pork Larb with Pork Offal x 1 = 60 baht
+Total: 75 baht
+Paid: 666 baht
+Change: 591 baht
+===============================
+
